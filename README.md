@@ -40,3 +40,7 @@ Memory module with wireless data transfer capability for testing RF projects and
 Compact 30mm diameter form factor biomedical sensor array for wearable applications, with blood pressure estimation IC, heart rate measurement, SpO2 (pulse oximeter), inertial measurement unit, and medical grade temperature sensor. This design focuses on solving the size constraints of previous GPS enabled modules by using a GNSS module with a built in antenna for a compact application. This board serves as a processing board for connection with a power delivery and management carrier board via a Molex high reliability SlimStack connector. The carrier board contains battery protection and charging IC, DC-DC converter, TI cc2500 2.4 GHz transceiver, USB and SWD interface. 
 
 <img src='STM32AHM/Biomedical_Sensor_Board_IP_PNG.png' width='900'  />
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gerber and manufacturing files available upon request, all schematics are available in each project directory. DISCLAIMER!!! I AM NOT AN ENGINEER, yet :) , these designs are for reference only and are still prototypes, firmware development planned at a later time**
+As always, any and all feedback is welcome and appreciated.
