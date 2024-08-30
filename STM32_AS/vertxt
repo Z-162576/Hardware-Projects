@@ -1,3 +1,4 @@
 V1.0.4
 Error Log:
-Schematic Error: Missing 4k7 pullups on BME I2C Lines
+Schematic Error: Missing 4k7 pullups on BME I2C Lines, FIXED
+Removed Schematic, not recommended for future designs, refer to suasFC schematic instead.
