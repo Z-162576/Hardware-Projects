@@ -15,7 +15,7 @@ Click image to zoom in.
 
 <img src='sUAS_FC/uas_fc_before_routing_png.png' width='900' />
 <img src='sUAS_FC/initial_suas_pcb.png' width='800' />
-<img src='sUAS_FC/initial_suas_layout.png' width='800'  />
+<img src='sUAS_FC/initial_suas_layout_update.png' width='800'  />
 
 # LTE-Enabled GNSS Tracking and Reporting Device
 Utilizes ublox LARA-R6 multi-mode LTE Cat 1 module and NEO-GNSS modules for remote tracking. Includes ICs for battery protection, temperature monitoring, charging, power path for mobile operations. Ublox LARA features jamming detection and reliability features that can be interfaced with the MCU (future note for firmware development). Configured MCU pins for shutdown and low power operation to conserve battery consumption while on standby. Contains IMU for motion sensing. Stackup -> SIG-GND-GND-SIG/PWR
