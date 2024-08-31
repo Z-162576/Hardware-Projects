@@ -24,7 +24,7 @@ Utilizes ublox LARA-R6 multi-mode LTE Cat 1 module and NEO-GNSS modules for remo
 <img src='STM32_AS/asset_tracker_projection_png.png' width='600'  />
 <img src='STM32_AS/asset_tracker_pcb_img.png' width='700'  />
 
-# Low Power Portable Remote Patient Monitoring PCB 
+# Portable Remote Patient Monitoring PCB 
 Utilizes photoplethysmography, SpO2, heart rate, blood pressure estimation, temperature, barometric pressure, gas detection (VOC), humidity and IMU sensors to remotely monitor patient health and status. Includes 2.4 GHz transceiver and NEO GNSS module for geotagging capability. Update: Possibly requires bi-directional level shifting for I2C and control pins of the bio-hub IC, requires further evaluation before implementing.
 Utlizes STM32F4 microcontroller and external flash for powerful and robust operation. SIG-GND-GND-PWR layer stackup for signal integrity.
 
@@ -36,8 +36,8 @@ Memory module with wireless data transfer capability for testing RF projects and
 
 <img src='STM32_Memory_Module/NRF_MEM_MOD.png' width='900'  />
 
-# Compact Biomedical Sensor Board (In Progress)
-Compact 30mm diameter form factor biomedical sensor array for wearable applications, with blood pressure estimation IC, heart rate measurement, SpO2 (pulse oximeter), inertial measurement unit, and medical grade temperature sensor. This design focuses on solving the size constraints of previous GPS enabled modules by using a GNSS module with a built in antenna for a compact application. This board serves as a processing board for connection with a power delivery and management carrier board via a Molex high reliability SlimStack connector. The carrier board contains battery protection and charging IC, DC-DC converter, TI cc2500 2.4 GHz transceiver, USB and SWD interface. 
+# Compact Low Power Biomedical Sensor Board (In Progress)
+Compact 30mm diameter form factor biomedical sensor array for wearable applications, with STM32U585 low power MCU, blood pressure estimation IC, heart rate measurement, SpO2 (pulse oximeter), inertial measurement unit, and medical grade temperature sensor. This design focuses on solving the size constraints of previous GPS enabled modules by using a GNSS module with a built in antenna for a compact application. This board serves as a processing board for connection with a power delivery and management carrier board via a Molex high reliability SlimStack connector. Double sided PCB with GNSS active antenna on the back. The carrier board contains battery protection and charging IC, DC-DC converter, TI cc2500 2.4 GHz transceiver, USB and SWD interface. 
 
 <img src='STM32AHM/Biomedical_Sensor_Board_IP_PNG.png' width='900'  />
 
