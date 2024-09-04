@@ -44,7 +44,7 @@ Compact 30mm diameter form factor biomedical sensor array for wearable applicati
 # Arduino Nano Every Based Development Board with I2C Multiplexer (In Progress)
 Designed to solve the challenges with the lack of I2C available pins on the board, and allow for the easy integration of sensors utilizing different logic levels with built in logic level conversion in the multiplexer IC. Routing, component placement in progress.
 
-<img src='V1_I2C_MUX_Board/i2c_mux_initial_pcb.png' width='900'  />
+<img src='V1_I2C_MUX_Board/I2C_mux_initial_2.png' width='900'  />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Gerber and manufacturing files available upon request, all schematics are available in each project directory. DISCLAIMER!!! I AM NOT AN ENGINEER, yet :) , these designs are for reference only and are still prototypes, firmware development planned at a later time**
