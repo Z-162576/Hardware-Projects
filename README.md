@@ -1,5 +1,6 @@
 # Hardware-Projects
 ## Documenting My Journey Learning PCB Design 
+## *No information, schematics, firmware, software, or advice in these projects are intended for medical, or clinical use or for use in critical applications. These tools should not be used to treat and or diagnose any disease or medical condition.*
 
 # Highly Integrated Cellular PCB
 LTE capable cellular device with several peripherals and LCD display. Includes GNSS for geotagging capability. Audio codec IC with built in speaker and microphone front-end, interfaces via I2S. High reliability LARA-R6 module with diversity ensures excellent range and performance in difficult environments. Peripherals include button matrix for input selection, magnetometer, IMU, SD and NANO Sim card interfaces, barometric pressure, gas detection (VOC), humidity, temperature, battery monitoring and charging IC, haptic motor driver, optical ambient sensor, and on board QSPI serial and NAND flash and SDRAM. Contains an STM32H7 for audio and digital processing and for interfacing with the RF modules, in addition, an auxiliary STM32F4 MCU that handles the user interface and on board sensors. Currently reworking the power supply to enable solar input. 6 layer PCB stackup -> SIG-GND-SIG-PWR-GND-SIG/PWR
@@ -47,5 +48,5 @@ Designed to solve the challenges with the lack of I2C available pins on the boar
 <img src='V1_I2C_MUX_Board/I2C_mux_initial_2.png' width='900'  />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Gerber and manufacturing files available upon request, all schematics are available in each project directory. DISCLAIMER!!! I AM NOT AN ENGINEER, yet :) , these designs are for reference only and are still prototypes, firmware development planned at a later time**
+Gerber and manufacturing files available upon request, all schematics are available in each project directory. DISCLAIMER!!! I AM NOT AN ENGINEER, yet :) , these designs are for reference only and are still prototypes.
 As always, any and all feedback is welcome and appreciated.
