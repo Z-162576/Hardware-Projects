@@ -5,14 +5,14 @@
 # Multichannel Precision Thermocouple Interface with Isolated RS 485 and 2 Channel (Bidirectional, Unidirectional) Isolated TEC Driver (In-Progress)
 PCB contains six channel K-type thermocouple inputs (PCC-SMP-V-K) with internal cold junction compensation. External flash for data logging and configuration. STM32F4 for processing and throughput over USB 2.0 FS. Dual architecture, and galvanically isolated power electronics sections, with H-bridge and PMBUS controlled buck converter. External TMP117 for temperature reference. External voltage reference for ADC. 
 
-<img src='A_TEC_Thermo/Screenshot 2026-08-22 060502.png' width='800' />
+<img src='A_TEC_Thermo/Screenshot 2026-08-22 060502.png' width='700' />
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060559.png' width='700' />
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060632.png' width='600' />
 
 # Open Source Kinetic Imager Lite (OSKI Lite)
 Multispectral imaging module containing inputs for a visible light and LWIR imager (FLIR Lepton). Contains temperature, barometer, IMU, ToF, ambient light sensors. QSPI flash, communications over USB 2.0 HS with external PHY, STM32H743 for video frame processing and throughput. Power sequencing for imagers.
 
-<img src='OSKI_LITE/Screenshot 2026-08-22 060301.png' width='800' />
+<img src='OSKI_LITE/Screenshot 2026-08-22 060301.png' width='700' />
 
 # Highly Integrated Cellular PCB
 LTE capable cellular device with several peripherals and LCD display. Includes GNSS for geotagging capability. Audio codec IC with built in speaker and microphone front-end, interfaces via I2S. High reliability LARA-R6 module with diversity ensures excellent range and performance in difficult environments. Peripherals include button matrix for input selection, magnetometer, IMU, SD and NANO Sim card interfaces, barometric pressure, gas detection (VOC), humidity, temperature, battery monitoring and charging IC, haptic motor driver, optical ambient sensor, and on board QSPI serial and NAND flash and SDRAM. Contains an STM32H7 for audio and digital processing and for interfacing with the RF modules, in addition, an auxiliary STM32F4 MCU that handles the user interface and on board sensors. Currently reworking the power supply to enable solar input. 6 layer PCB stackup -> SIG-GND-SIG-PWR-GND-SIG/PWR
