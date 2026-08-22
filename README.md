@@ -3,7 +3,7 @@
 ## *No information, schematics, firmware, software, or advice in these projects are intended for medical, or clinical use or for use in critical applications. These tools should not be used to treat and or diagnose any disease or medical condition.*
 
 # Multichannel Precision Thermocouple Interface with Isolated RS 485 and 2 Channel (Bidirectional, Unidirectional) Isolated TEC Driver (In-Progress)
-PCB contains six channel K-type thermocouple inputs (PCC-SMP-V-K) with internal cold junction compensation. External flash for data logging and configuration. STM32F4 for processing and throughput over USB 2.0 FS. Dual architecture, and galvanically isolated power electronics sections, with H-bridge and PMBUS controlled buck converter. External TMP117 for temperature reference. External voltage reference for ADC. 
+PCB contains six channel K-type thermocouple inputs (PCC-SMP-V-K) with internal cold junction compensation. External flash for data logging and configuration. STM32F4 for processing and throughput over USB 2.0 FS. Dual architecture drivers for thermoelectric coolers, and galvanically isolated power electronics sections, with H-bridge and PMBUS controlled buck converter. External TMP117 for temperature reference. External voltage reference for ADC. Isolated current sense, internal and Hall effect. Peltier surface temperature control loop via thermocouple inputs.
 
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060502.png' width='700' />
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060559.png' width='700' />
