@@ -53,6 +53,7 @@ Memory module with wireless data transfer capability for testing RF projects and
 Compact 30mm diameter form factor biomedical sensor array for wearable applications, with STM32U585 low power MCU, blood pressure estimation IC, heart rate measurement, SpO2 (pulse oximeter), inertial measurement unit, and medical grade temperature sensor. This design focuses on solving the size constraints of previous GPS enabled modules by using a GNSS module with a built in antenna for a compact application. This board serves as a processing board for connection with a power delivery and management carrier board via a Molex high reliability SlimStack connector. Double sided PCB with GNSS active antenna on the back. The carrier board contains battery protection and charging IC, DC-DC converter, TI cc2500 2.4 GHz transceiver, USB and SWD interface. 
 
 <img src='STM32AHM/Biomedical_Sensor_Board_IP_PNG.png' width='900'  />
+<img src='STM32AHM/Screenshot 2026-08-22 061500.png' width='600' />
 
 # Arduino Nano Every Based Development Board with I2C Multiplexer (In Progress)
 Designed to solve the challenges with the lack of I2C available pins on the board, and allow for the easy integration of sensors utilizing different logic levels with built in logic level conversion in the multiplexer IC. Routing, component placement in progress.
