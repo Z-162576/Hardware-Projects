@@ -1,4 +1,4 @@
-# Hardware-Projects
+# Hardware-Projects-Overview
 ## Documenting My Journey Learning PCB Design 
 ## *No information, schematics, firmware, software, or advice in these projects are intended for medical, or clinical use or for use in critical applications. These tools should not be used to treat and or diagnose any disease or medical condition.*
 
