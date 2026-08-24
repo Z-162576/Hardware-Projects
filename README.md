@@ -14,6 +14,11 @@ Multispectral imaging module containing inputs for a visible light and LWIR imag
 
 <img src='OSKI_LITE/Screenshot 2026-08-22 060301.png' width='700' />
 
+# Compact Pulse Oximeter and Sensor USB Interface (In Progress) *
+Compact 60x30 mm sensor board in order to evaluate various sensors include a max 30102 pulse oximeter, max 30205 temperature sensor, mems microphone, bmi 323 IMU, apds-9306 ambient light sensor. Separate LDOs for analog and digital supply rails. Command and control via USB CDC through an STM32F411, analysis and plotting of heart rate, IMU, SpO2 data via python desktop app.
+
+<img src='STM32AHM/Screenshot 2026-08-24 052754.png' width='900'  />
+
 # Highly Integrated Cellular PCB
 LTE capable cellular device with several peripherals and LCD display. Includes GNSS for geotagging capability. Audio codec IC with built in speaker and microphone front-end, interfaces via I2S. High reliability LARA-R6 module with diversity improves cellular link range and performance in difficult environments. Peripherals include button matrix for input selection, magnetometer, IMU, SD and NANO Sim card interfaces, barometric pressure, gas detection (VOC), humidity, temperature, battery monitoring and charging IC, haptic motor driver, optical ambient sensor, and on board QSPI serial and NAND flash and SDRAM. Contains an STM32H7 for audio and digital processing and for interfacing with the RF modules, in addition, an auxiliary STM32F4 MCU that handles the user interface and on board sensors. Currently reworking the power supply to enable solar input. 6 layer PCB stackup -> SIG-GND-SIG-PWR-GND-SIG/PWR
 
