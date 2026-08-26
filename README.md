@@ -20,7 +20,7 @@ Compact 60x30 mm sensor board in order to evaluate various sensors include a max
 <img src='STM32AHM/Screenshot 2026-08-24 052754.png' width='900'  />
 
 ##
-## The following projects are UNTESTED proofs of concepts and are not currently planned (perhaps in the future) to be manufactured but pass design and manufacturing rule checks
+## The following projects are UNTESTED proofs of concepts and are not currently planned (perhaps in the future) to be manufactured but pass the configured PCB design and manufacturing rule checks, but have not been electrically validated
 
 # Highly Integrated Cellular PCB
 LTE capable cellular device with several peripherals and LCD display. Includes GNSS for geotagging capability. Audio codec IC with built in speaker and microphone front-end, interfaces via I2S. High reliability LARA-R6 module with diversity improves cellular link range and performance in difficult environments. Peripherals include button matrix for input selection, magnetometer, IMU, SD and NANO Sim card interfaces, barometric pressure, gas detection (VOC), humidity, temperature, battery monitoring and charging IC, haptic motor driver, optical ambient sensor, and on board QSPI serial and NAND flash and SDRAM. Contains an STM32H7 for audio and digital processing and for interfacing with the RF modules, in addition, an auxiliary STM32F4 MCU that handles the user interface and on board sensors. Currently reworking the power supply to enable solar input. 6 layer PCB stackup -> SIG-GND-SIG-PWR-GND-SIG/PWR
@@ -38,7 +38,7 @@ Click image to zoom in.
 <img src='sUAS_FC/initial_suas_pcb.png' width='800' />
 <img src='sUAS_FC/initial_suas_layout_update.png' width='800'  />
 
-# Compact Low Power Biomedical Sensor Board (In Progress) *
+# Compact Low Power Physiological Sensor Board (In Progress) *
 Compact 30mm diameter (version 1) form factor biomedical sensor array for wearable applications, with STM32U585 low power MCU, heart rate measurement, SpO2 (pulse oximeter), inertial measurement unit, and body temperature sensor. This design focuses on solving the size constraints of previous GPS enabled modules by using a GNSS module with a built in antenna for a compact application. This board serves as a processing board for connection with a power delivery and management carrier board via a Molex high reliability SlimStack connector. Double sided PCB with GNSS active antenna on the back. The carrier board contains battery protection and charging IC, DC-DC converter, TI cc2500 2.4 GHz transceiver, USB and SWD interface (version 1). 
 
 <img src='STM32AHM/Biomedical_Sensor_Board_IP_PNG.png' width='900'  />
@@ -71,5 +71,5 @@ Designed to solve the challenges with the lack of I2C available pins on the boar
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 "*" Indicates that PCBs have been manufactured and are either undergoing assembly, firmware development, or testing
-Gerber and manufacturing files available upon request, all schematics are available in each project directory. DISCLAIMER!!! I AM NOT AN ENGINEER, yet :) , these designs are for reference only and are still prototypes.
+Gerber and manufacturing files available upon request, all schematics are available in each project directory. These designs are independent undergraduate hardware projects and are for reference only and are still prototypes, no device shown is claimed to be a medical device. 
 As always, any and all feedback is welcome and appreciated, especially for inaccuracies or errors.
