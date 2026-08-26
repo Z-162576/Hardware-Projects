@@ -8,16 +8,19 @@ PCB contains six channel K-type thermocouple inputs (PCC-SMP-V-K) with internal 
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060502.png' width='700' />
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060559.png' width='700' />
 <img src='A_TEC_Thermo/Screenshot 2026-08-22 060632.png' width='600' />
+<img src='A_TEC_Thermo/labeled_tec_controller.jpg' width='600' />
 
 # Open Source Kinetic Imager Lite (OSKI Lite) *
 Multispectral imaging module containing inputs for a visible light and LWIR imager (FLIR Lepton). Contains temperature, barometer, IMU, ToF, ambient light sensors. QSPI flash, communications over USB 2.0 HS with external PHY, STM32H743 for video frame processing and throughput. Power sequencing for imagers. 6 layer PCB stackup -> SIG-GND-SIG-PWR-GND-SIG
 
 <img src='OSKI_LITE/Screenshot 2026-08-22 060301.png' width='700' />
+<img src='OSKI_LITE/labeled_imager_pcb.jpg' width='600' />
 
 # Compact Pulse Oximeter and Sensor USB Interface (In Progress) *
 Compact 60x30 mm sensor board in order to evaluate various sensors include a max 30102 pulse oximeter, max 30205 temperature sensor, mems microphone, bmi 323 IMU, apds-9306 ambient light sensor. Separate LDOs for analog and digital supply rails. Command and control planned via USB CDC through an STM32F411 to enable analysis and plotting of heart rate, IMU, SpO2 data. PCB stackup: SIG-GND-GND-SIG for signal integrity.
 
 <img src='STM32AHM/Screenshot 2026-08-24 052754.png' width='900'  />
+<img src='STM32AHM/labeled_sensors_tests.jpg' width='800'  />
 
 ##
 ## The following projects are UNTESTED proofs of concepts and are not currently planned (perhaps in the future) to be manufactured but pass the configured PCB design and manufacturing rule checks, but have not been electrically validated
