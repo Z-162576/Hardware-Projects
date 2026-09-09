@@ -18,7 +18,8 @@ Multispectral imaging module containing inputs for a visible light and LWIR imag
 
 # Compact Pulse Oximeter and Sensor USB Interface (In Progress) *
 Compact 60x30 mm sensor board in order to evaluate various sensors include a max 30102 pulse oximeter, max 30205 temperature sensor, mems microphone, bmi 323 IMU, apds-9306 ambient light sensor. Separate LDOs for analog and digital supply rails. Command and control planned via USB CDC through an STM32F411 to enable analysis and plotting of heart rate, IMU, SpO2 data. PCB stackup: SIG-GND-GND-SIG for signal integrity.
-
+Hand assembled, reflow via custom closed loop controller and cooler based on commercial hot plate.
+<img src='STM32AHM/Screenshot 2026-09-09 145502.png' width='900'  />
 <img src='STM32AHM/Screenshot 2026-08-24 052754.png' width='900'  />
 <img src='STM32AHM/labeled_sensors_tests.jpg' width='800'  />
 
